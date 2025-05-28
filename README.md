@@ -1,1 +1,1 @@
-# indta-servic
+# insta-servic

@@ -2,55 +2,175 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Riju XMD Services</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Riju XMD Futuristic Services</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(135deg, #0f0f0f, #1f1f1f);
+      color: #00fff7;
+      overflow-x: hidden;
+    }header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  padding: 1rem;
+  text-align: center;
+  background: linear-gradient(to right, #2b2b2b, #1e1e1e);
+  box-shadow: 0 0 20px #00fff7;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  font-weight: 700;
+  color: #00fff7;
+  text-shadow: 0 0 15px #00fff7;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+.button {
+  background: transparent;
+  border: 2px solid #00fff7;
+  padding: 0.6rem 1.2rem;
+  margin: 0.3rem;
+  color: #00fff7;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 700;
+}
+
+.button:hover {
+  background: #00fff7;
+  color: #0f0f0f;
+  box-shadow: 0 0 20px #00fff7;
+}
+
+.slides {
+  scroll-snap-type: x mandatory;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  height: 100vh;
+  margin-top: 6rem;
+}
+
+.slide {
+  scroll-snap-align: start;
+  flex: none;
+  width: 100vw;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: linear-gradient(145deg, #1c1c1c, #2c2c2c);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 25px #00fff7;
+  width: 90%;
+  max-width: 420px;
+  text-align: center;
+  border: 1px solid #00fff7;
+}
+
+.card h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+  color: #00fff7;
+  font-weight: 700;
+  text-shadow: 0 0 10px #00fff7;
+}
+
+.card p {
+  margin: 0.8rem 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.glow-border {
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 10px #00fff7;
+  }
+  to {
+    box-shadow: 0 0 25px #00fff7, 0 0 40px #00fff7;
+  }
+}
+
+  </style>
 </head>
 <body>
-  <header>
+  <header class="glow-border">
     <h1>RIJU XMD</h1>
     <nav>
-      <button class="button">Services</button>
       <a href="https://wa.me/919332446037" class="button" target="_blank">WhatsApp</a>
     </nav>
-  </header>  <section class="container">
-    <div class="card">
-      <h3>Instagram Views 😍</h3>
-      <p>10k - 40₹ <button class="button" onclick="sendMessage('Instagram Views 10k - 40₹')">BUY NOW</button></p>
-      <p>50k - 100₹ <button class="button" onclick="sendMessage('Instagram Views 50k - 100₹')">BUY NOW</button></p>
-      <p>1M - 300₹ <button class="button" onclick="sendMessage('Instagram Views 1M - 300₹')">BUY NOW</button></p>
-    </div><div class="card">
-  <h3>Instagram Likes 😍</h3>
-  <p>1k - 10₹ <button class="button" onclick="sendMessage('Instagram Likes 1k - 10₹')">BUY NOW</button></p>
-  <p>5k - 40₹ <button class="button" onclick="sendMessage('Instagram Likes 5k - 40₹')">BUY NOW</button></p>
-  <p>10k - 70₹ <button class="button" onclick="sendMessage('Instagram Likes 10k - 70₹')">BUY NOW</button></p>
+  </header>  <div class="slides">
+    <div class="slide">
+      <div class="card glow-border">
+        <h3>Instagram Views 😍</h3>
+        <p>10k - 40₹ <a class="button" href="https://wa.me/919332446037?text=I%20want%20to%20buy%2010k%20Instagram%20Views%20for%2040%E2%82%B9">BUY NOW</a></p>
+        <p>50k - 100₹ <a class="button" href="https://wa.me/919332446037?text=I%20want%20to%20buy%2050k%20Instagram%20Views%20for%20100%E2%82%B9">BUY NOW</a></p>
+        <p>1M - 300₹ <a class="button" href="https://wa.me/919332446037?text=I%20want%20to%20buy%201M%20Instagram%20Views%20for%20300%E2%82%B9">BUY NOW</a></p>
+      </div>
+    </div><div class="slide">
+  <div class="card glow-border">
+    <h3>Instagram Likes 😍</h3>
+    <p>1k - 10₹ <a class="button" href="https://wa.me/919332446037?text=I%20want%20to%20buy%201k%20Instagram%20Likes%20for%2010%E2%82%B9">BUY NOW</a></p>
+    <p>5k - 40₹ <a class="button" href="https://wa.me/919332446037?text=I%20want%20to%20buy%205k%20Instagram%20Likes%20for%2040%E2%82%B9">BUY NOW</a></p>
+    <p>10k - 70₹ <a class="button" href="https://wa.me/919332446037?text=I%20want%20to%20buy%2010k%20Instagram%20Likes%20for%2070%E2%82%B9">BUY NOW</a></p>
+  </div>
 </div>
 
-<div class="card">
-  <h3>Instagram Followers 🧑‍🤝‍🧑</h3>
-  <p>1k - 160₹ <button class="button" onclick="sendMessage('Instagram Followers 1k - 160₹')">BUY NOW</button></p>
-  <p>2k - 300₹ <button class="button" onclick="sendMessage('Instagram Followers 2k - 300₹')">BUY NOW</button></p>
-  <p>5k - 750₹ <button class="button" onclick="sendMessage('Instagram Followers 5k - 750₹')">BUY NOW</button></p>
+<div class="slide">
+  <div class="card glow-border">
+    <h3>Instagram Followers 🧑‍🤝‍🧑</h3>
+    <p>1k - 160₹ <a class="button" href="https://wa.me/919332446037?text=I%20want%20to%20buy%201k%20Instagram%20Followers%20for%20160%E2%82%B9">BUY NOW</a></p>
+    <p>2k - 300₹ <a class="button" href="https://wa.me/919332446037?text=I%20want%20to%20buy%202k%20Instagram%20Followers%20for%20300%E2%82%B9">BUY NOW</a></p>
+    <p>5k - 750₹ <a class="button" href="https://wa.me/919332446037?text=I%20want%20to%20buy%205k%20Instagram%20Followers%20for%20750%E2%82%B9">BUY NOW</a></p>
+  </div>
 </div>
 
-<div class="card">
-  <h3>Facebook Followers 🧑‍🤝‍🧑</h3>
-  <p>1k - 100₹ <button class="button" onclick="sendMessage('Facebook Followers 1k - 100₹')">BUY NOW</button></p>
-  <p>5k - 450₹ <button class="button" onclick="sendMessage('Facebook Followers 5k - 450₹')">BUY NOW</button></p>
-  <p>10k - 900₹ <button class="button" onclick="sendMessage('Facebook Followers 10k - 900₹')">BUY NOW</button></p>
+<div class="slide">
+  <div class="card glow-border">
+    <h3>Facebook Followers 🧑‍🤝‍🧑</h3>
+    <p>1k - 100₹ <a class="button" href="https://wa.me/919332446037?text=I%20want%20to%20buy%201k%20Facebook%20Followers%20for%20100%E2%82%B9">BUY NOW</a></p>
+    <p>5k - 450₹ <a class="button" href="https://wa.me/919332446037?text=I%20want%20to%20buy%205k%20Facebook%20Followers%20for%20450%E2%82%B9">BUY NOW</a></p>
+    <p>10k - 900₹ <a class="button" href="https://wa.me/919332446037?text=I%20want%20to%20buy%2010k%20Facebook%20Followers%20for%20900%E2%82%B9">BUY NOW</a></p>
+  </div>
 </div>
 
-<div class="card">
-  <h3>Facebook Views 😍</h3>
-  <p>1k - 10₹ <button class="button" onclick="sendMessage('Facebook Views 1k - 10₹')">BUY NOW</button></p>
-  <p>5k - 50₹ <button class="button" onclick="sendMessage('Facebook Views 5k - 50₹')">BUY NOW</button></p>
-  <p>10k - 90₹ <button class="button" onclick="sendMessage('Facebook Views 10k - 90₹')">BUY NOW</button></p>
+<div class="slide">
+  <div class="card glow-border">
+    <h3>Facebook Views 😍</h3>
+    <p>1k - 10₹ <a class="button" href="https://wa.me/919332446037?text=I%20want%20to%20buy%201k%20Facebook%20Views%20for%2010%E2%82%B9">BUY NOW</a></p>
+    <p>5k - 50₹ <a class="button" href="https://wa.me/919332446037?text=I%20want%20to%20buy%205k%20Facebook%20Views%20for%2050%E2%82%B9">BUY NOW</a></p>
+    <p>10k - 90₹ <a class="button" href="https://wa.me/919332446037?text=I%20want%20to%20buy%2010k%20Facebook%20Views%20for%2090%E2%82%B9">BUY NOW</a></p>
+  </div>
 </div>
 
-<div class="card">
-  <h3>YouTube Services ▶️</h3>
-  <p>1k - 250₹ <button class="button" onclick="sendMessage('YouTube Services 1k - 250₹')">BUY NOW</button></p>
-  <p>5k - 1200₹ <button class="button" onclick="sendMessage('YouTube Services 5k - 1200₹')">BUY NOW</button></p>
+<div class="slide">
+  <div class="card glow-border">
+    <h3>YouTube Services ▶️</h3>
+    <p>1k - 250₹ <a class="button" href="https://wa.me/919332446037?text=I%20want%20to%20buy%201k%20YouTube%20Views%20for%20250%E2%82%B9">BUY NOW</a></p>
+    <p>5k - 1200₹ <a class="button" href="https://wa.me/919332446037?text=I%20want%20to%20buy%205k%20YouTube%20Views%20for%201200%E2%82%B9">BUY NOW</a></p>
+  </div>
 </div>
 
-  </section>  <script src="script.js"></script></body>
+  </div>
+</body>
 </html>
